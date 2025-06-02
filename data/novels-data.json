@@ -1,5 +1,137 @@
 [
   {
+    "id": "000094",
+    "title": "Butareba -The Story of a Man Turned into a Pig-",
+    "cover": "https://i0.wp.com/jnovels.com/wp-content/uploads/2025/03/butareba-the-story-of-a-man-turned-into-a-pig-sixth-bite.jpg?w=500&ssl=1",
+    "volume": "6",
+    "providers": {
+      "malId": "133333",
+      "anilistId": "123563"
+    },
+    "epubId": "1l4x4UWYLzQFvhgL8EjboFDcs9epyb9mj"
+  },
+  {
+    "id": "000093",
+    "title": "Butareba -The Story of a Man Turned into a Pig-",
+    "cover": "https://m.media-amazon.com/images/I/81s9TCAXX3L._UF1000,1000_QL80_FMwebp_.jpg",
+    "volume": "5",
+    "providers": {
+      "malId": "133333",
+      "anilistId": "123563"
+    },
+    "epubId": "1RZRZaaqDZF9PJee5uPNQFx4aIe-YFtQx"
+  },
+  {
+    "id": "000092",
+    "title": "Butareba -The Story of a Man Turned into a Pig-",
+    "cover": "https://m.media-amazon.com/images/I/81FZoramVcL._UF1000,1000_QL80_FMwebp_.jpg",
+    "volume": "4",
+    "providers": {
+      "malId": "133333",
+      "anilistId": "123563"
+    },
+    "epubId": "1Rq0jCM36YZf4NzEPV4FvoEGd-YC0kNEH"
+  },
+  {
+    "id": "000091",
+    "title": "Butareba -The Story of a Man Turned into a Pig-",
+    "cover": "https://m.media-amazon.com/images/I/81HGDu6C92L._UF1000,1000_QL80_FMwebp_DpWeblab_.jpg",
+    "volume": "3",
+    "providers": {
+      "malId": "133333",
+      "anilistId": "123563"
+    },
+    "epubId": "1RkcyZm9Z1gVPtIwPPX7fs-X4hHLlM3vN"
+  },
+  {
+    "id": "000090",
+    "title": "Butareba -The Story of a Man Turned into a Pig-",
+    "cover": "https://m.media-amazon.com/images/I/81nVMViI0OL._UF1000,1000_QL80_FMwebp_.jpg",
+    "volume": "2",
+    "providers": {
+      "malId": "133333",
+      "anilistId": "123563"
+    },
+    "epubId": "1RjUvD4MTJaJJvPgSZwHzF1wUCPTjtgTY"
+  },
+  {
+    "id": "000089",
+    "title": "Butareba -The Story of a Man Turned into a Pig-",
+    "cover": "https://m.media-amazon.com/images/I/81L4EvXTsBL._UF1000,1000_QL80_FMwebp_.jpg",
+    "volume": "1",
+    "providers": {
+      "malId": "133333",
+      "anilistId": "123563"
+    },
+    "epubId": "1RdRklvsQ62tQ1NSL2aXEPk2HwdC0fHC1"
+  },
+  {
+    "id": "000088",
+    "title": "Ascendance of a Bookworm Hannelore’s Fifth Year at the Royal Academy",
+    "cover": "https://m.media-amazon.com/images/I/91i3p20osgL._UF1000,1000_QL80_FMwebp_.jpg",
+    "volume": "1",
+    "providers": {
+      "malId": "173328",
+      "anilistId": "173934"
+    },
+    "epubId": "1mguX4ul4iZqVRfcZp2ewUnhkFvHcnht1"
+  },
+  {
+    "id": "000087",
+    "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
+    "cover": "https://m.media-amazon.com/images/I/81c5GvQl0qL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+    "volume": "5",
+    "providers": {
+      "malId": "134946",
+      "anilistId": "125198"
+    },
+    "epubId": "1A__-NDzvL_rArL55gvgltHdnAERHIKC2"
+  },
+  {
+    "id": "000086",
+    "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
+    "cover": "https://m.media-amazon.com/images/I/81GB2QmxzXL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+    "volume": "4",
+    "providers": {
+      "malId": "134946",
+      "anilistId": "125198"
+    },
+    "epubId": "1A_E9mRnQdCS5WvmBVcjp26RhLQd8_yrZ"
+  },
+  {
+    "id": "000085",
+    "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
+    "cover": "https://m.media-amazon.com/images/I/81uiKxQPvYL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+    "volume": "3",
+    "providers": {
+      "malId": "134946",
+      "anilistId": "125198"
+    },
+    "epubId": "1AXe1Mce8qM61hDdu9Ae56AuM7ejFKFgt"
+  },
+  {
+    "id": "000084",
+    "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
+    "cover": "https://m.media-amazon.com/images/I/81-X5DZzalL._AC_UF1000,1000_QL80_FMwebp_DpWeblab_.jpg",
+    "volume": "2",
+    "providers": {
+      "malId": "134946",
+      "anilistId": "125198"
+    },
+    "epubId": "1AQglOVwsja7wp8oOB5Q39mSnvGElos-Y"
+  },
+  {
+    "id": "000083",
+    "title": "As a Reincarnated Aristocrat, I'll Use My Appraisal Skill to Rise in the World",
+    "cover": "https://m.media-amazon.com/images/I/81Cp0y3LQBL._AC_UF1000,1000_QL80_FMwebp_.jpg",
+    "volume": "1",
+    "providers": {
+      "malId": "134946",
+      "anilistId": "125198"
+    },
+    "epubId": "1A1f0NL07bwgTaVi8HlWBRMRol5SzTa70"
+  },
+  {
     "id": "000082",
     "title": "An Archdemon's Dilemma: How to Love Your Elf Bride",
     "cover": "https://m.media-amazon.com/images/I/81Yz9+cUMZL._UF1000,1000_QL80_FMwebp_.jpg",
