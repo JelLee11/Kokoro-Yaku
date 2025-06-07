@@ -1,0 +1,267 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  background-color: #121212;
+}
+h1,h2,h3,h4,h5,h6,p,i {
+  color: #F5F5F5;
+  font-size: 15pt;
+}
+/* Navigation */
+.navigation {
+  max-width: 100%;
+  height: auto;
+  padding: 10px 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation .nav1 {
+  max-width: inherit;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.navigation .nav1 img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.navigation .nav1 h1 {
+  font-size: 2.3em;
+  padding: 0;
+  margin: 0 0 0 7px;
+  font-family: "Poppins", Sans-Serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.navigation .nav2 .menu-icon i {
+  font-size: 2em;
+}
+
+/* slider-wrapper-container */
+/* Container with fixed height and hidden overflow */
+.slider-wrapper-container {
+  max-width: 100%;
+  height: 350px;
+  overflow: hidden;
+  position: relative;
+  background-color: #121212;
+}
+.shimmer {
+  position: relative;
+  overflow: hidden;
+  background-color: #232323;
+}
+.shimmer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  height: 100%;
+  width: 150%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    #323232 50%,
+    transparent 100%
+  );
+  animation: shimmer-move 1.5s infinite;
+}
+@keyframes shimmer-move {
+  0% {
+    left: -150%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+/* Dimensions for shimmer elements */
+.shimmer-banner {
+  width: 300px;
+  height: 180px;
+  border-radius: 8px;
+}
+.shimmer-title {
+  width: 60%;
+  height: 24px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.shimmer-synopsis {
+  width: 100%;
+  height: 100px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.shimmer-button {
+  width: 120px;
+  height: 36px;
+  margin-top: 15px;
+  border-radius: 6px;
+}
+.shimmer-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+/* Relative positioning to allow absolute elements inside */
+.slider-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+/* Track that slides horizontally */
+.slider-track {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;
+}
+/* Each slide takes full width */
+.slider-track .slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+/* Banner image inside the slide */
+.slider-banner {
+  width: 100%;
+  height: 100%;
+}
+.slider-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* Overlaid content block */
+.slider-wrapper-content {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(
+    to top,
+    rgba(18, 18, 18, 1) 0%,
+    rgba(18, 18, 18, 0.8) 50%,
+    rgba(18, 18, 18, 0.3) 100%
+  );
+}.slider-title {
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.slider-synopsis {
+  font-size: 0.95em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #ddd;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* Call-to-action button */
+.slider-wrapper-buttons button {
+  width: 180px;
+  margin-top: 15px;
+  background-color: #FF4A52;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.slider-wrapper-buttons button:hover {
+  background-color: #e03d45;
+}
+/* Slider navigation controls */
+.slider-controls {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  right: 0;
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end;
+  transform: translateY(-50%);
+  z-index: 3;
+  padding: 0 10px;
+}
+.slider-controls button {
+  background-color: rgba(18,18,18,0.728);
+  border: none;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+.slider-controls button i {
+  color: #fff;
+  font-size: 1.3em;
+}
+.slider-controls button:active {
+  background-color: #121212;
+}
+
+/* Item Container */
+.item-container {
+  max-width: 100%;
+  height: auto;
+}
+.item-container-header {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-container-header h1 {
+  font-size: 1.2em;
+  font-family: "Poppins", Sans-Serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.item-pager-container {
+  width: auto;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #323232;
+  border-radius: 5px;
+}
+.item-pager-container button {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  padding: 8px 15px;
+}
+.item-pager-container .pager-count p{
+  padding: 8px;
+  font-size: 1.2em;
+  font-family: "Poppins", Sans-Serif;
+  font-weight: 600;
+  font-style: normal;
+}

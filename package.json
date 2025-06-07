@@ -1,0 +1,25 @@
+{
+  "name": "kokoro-yaku",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JelLee11/Kokoro-Yaku.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JelLee11/Kokoro-Yaku/issues"
+  },
+  "homepage": "https://github.com/JelLee11/Kokoro-Yaku#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^5.1.0"
+  },
+  "description": ""
+}
